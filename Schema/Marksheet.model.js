@@ -1,11 +1,11 @@
 var mongoose = require("mongoose");
 
 var MarksheetSchema = new mongoose.Schema({
+  MAP_NUMBER:Number,
   exam:String,
   AcademicYear:Date,
   sem:Number,
-  MAP_NUMBER:Number,
-  // Subject code
+    // Subject code
   SUB1:Number,	SUB2:Number,	SUB3:Number,	SUB4:Number,	SUB5:Number,
   SUB6:Number,	SUB7:Number,	SUB8:Number,	SUB9:Number,	SUB10:Number,
   // Subject Name
@@ -54,4 +54,4 @@ var MarksheetSchema = new mongoose.Schema({
 })
 
 
-module.exports = mongoose.model('Marksheet', MarksheetSchema);
+module.exports = { MarksheetSchema};

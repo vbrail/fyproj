@@ -23,6 +23,5 @@ var EfeeSchema = new mongoose.Schema({
   'Late Fee if any'      : Number
 
 })
-var Termfee     = mongoose.model("Termfee",TfeeSchema);
-var Examfee     = mongoose.model("Examfee",EfeeSchema);
-module.exports  = {Termfee:Termfee,Examfee:Examfee};
+
+module.exports  = {TfeeSchema,EfeeSchema};

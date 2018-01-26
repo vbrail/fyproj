@@ -17,14 +17,14 @@ mongoose.connect("mongodb://localhost/db1",function(err,data){
     console.log("db connection failed : ",err);
   }
   else{
-    console.log("connnection sucessful: ",data);
+    console.log("connnection sucessful: ");
   }
 });
 //===============================================================================
 //======================= Accuring Schemas ======================================
 //===============================================================================
 var Students   = require('./Schema/student.model'),
-    Marksheet  = require('./Schema/marksheet.model'),
+    Marksheet  = require('./Schema/Marksheet.model'),
     feemodel   = require('./Schema/fee.model');
 
 var Examfee    = feemodel.Examfee,
@@ -46,7 +46,7 @@ console.log("server started");
 //======================== rough inserting data ====================================
 //==================================================================================
 Students.create({
-  _id:110160106049
+  _id:160160106028
 },function(err,data){
   if(err){
     console.log("insertion failed");
@@ -79,7 +79,7 @@ app.post("/",upload.single("file"),function(req,res){                           
   //+++++++++++++++++++++ For Term Fee ===================================== #1
   if(req.body.fc=="Tfee"){                                                          // -2
     console.log("Term fee Excel intiated");
-    mongoXlsx.xlsx2MongoData("./"+req.file.path,TfeeSchema,function (err,mongoData){ //-3
+    mongoXlsx.xlsx2MongoData("./"+req.file.path,feemodel.TfeeSchema,function (err,mongoData){ //-3
       if(err){                                                                       //-4
         console.log("data conversion error");
       }                                                                              //4-
@@ -122,7 +122,7 @@ app.post("/",upload.single("file"),function(req,res){                           
   //++++++++++++++++++++++++++++++ Exaam Fee ================================== #2
   else if(req.body.fc=="Efee"){
     console.log("Exam Fee Excel initiated");
-    mongoXlsx.xlsx2MongoData("./"+req.file.path,EfeeSchema,function (err,mongoData){
+    mongoXlsx.xlsx2MongoData("./"+req.file.path,feemodel.EfeeSchema,function (err,mongoData){
       if(err){
         console.log("conversion error [exam Fee]");
       }
@@ -175,7 +175,7 @@ app.post("/",upload.single("file"),function(req,res){                           
 //++++++++++++++++++++++++++++++ Marksheet     +++++++++++++++++++++++++++++++++
   else if(req.body.fc=="result"){
     console.log("Marksheet Excel initiated");
-    mongoXlsx.xlsx2MongoData("./",req.file.path,MarksheetSchema,function (err,mongoData){
+    mongoXlsx.xlsx2MongoData("./"+req.file.path,Marksheet.MarksheetSchema,function (err,mongoData){
       if(err){
         console.log("excel conversion error",err);
       }
@@ -188,12 +188,12 @@ app.post("/",upload.single("file"),function(req,res){                           
           }
           else{
             if(!data){
-              console.log(" No records found with with this data");
+              console.log(" No records found with with this data",ele['MAP_NUMBER']);
             }
             else{
               /////////////////////////////////////////
               var sem = "s_"+ele.sem;
-              Students.findByIdAndUpdate(_id,{
+              Students.findByIdAndUpdate(ele['MAP_NUMBER'],{
                 [sem]:{
                   result:{
                     sub1:{

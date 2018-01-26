@@ -27,43 +27,43 @@ var studentSchema = new mongoose.Schema({
       sub1:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub2:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub3:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub4:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub5:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub6:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub7:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub8:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub9:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub10:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
     }
 
 
@@ -77,43 +77,43 @@ var studentSchema = new mongoose.Schema({
       sub1:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub2:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub3:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub4:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub5:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub6:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub7:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub8:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub9:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub10:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
     }
   },
   D_2:{
@@ -128,43 +128,43 @@ var studentSchema = new mongoose.Schema({
       sub1:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub2:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub3:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub4:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub5:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub6:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub7:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub8:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub9:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub10:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
     }
   },
   D_3:{
@@ -179,43 +179,43 @@ var studentSchema = new mongoose.Schema({
       sub1:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub2:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub3:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub4:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub5:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub6:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub7:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub8:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub9:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub10:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
     }
   },
   D_4:{
@@ -230,43 +230,43 @@ var studentSchema = new mongoose.Schema({
       sub1:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub2:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub3:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub4:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub5:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub6:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub7:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub8:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub9:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub10:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
     }
   },
   D_5:{
@@ -281,43 +281,43 @@ var studentSchema = new mongoose.Schema({
       sub1:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub2:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub3:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub4:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub5:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub6:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub7:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub8:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub9:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub10:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
     }
   },
   D_6:{
@@ -332,43 +332,43 @@ var studentSchema = new mongoose.Schema({
       sub1:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub2:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub3:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub4:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub5:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub6:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub7:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub8:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub9:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub10:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
     }
   },
   D_7:{
@@ -383,43 +383,43 @@ var studentSchema = new mongoose.Schema({
       sub1:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub2:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub3:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub4:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub5:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub6:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub7:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub8:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub9:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
       sub10:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
         thtot  :String, prese  :String,    prpa   :String,
-        prtot  :String, grade  :String,    absen  :Number,  backlog: Number },
+        prtot  :String, grade  :String,    absen  :String,  backlog: Number },
     }
   },
   D_8:{
