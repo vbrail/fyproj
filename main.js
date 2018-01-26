@@ -72,7 +72,7 @@ app.get("/",function(req,res){
   res.render("index.ejs");
 })
 
-app.post("/",upload.single("file"),function(req,res){                               //-1
+app.post("/"+upload.single("file"),function(req,res){                               //-1
   console.log("post req initiated");
   console.log(req.body.fc);
   console.log(req.file.path);
