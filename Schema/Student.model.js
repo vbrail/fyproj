@@ -23,6 +23,10 @@ var studentSchema = new mongoose.Schema({
     Term_fee     :Number,
     Exam_fee_Reg :Number,
     semTotBklog  :Number,
+    spi          :Number,
+    cpi          :Number,
+    Tsubject     :Number,
+    status       :String,
     result:{
       sub1:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
@@ -73,6 +77,10 @@ var studentSchema = new mongoose.Schema({
     Exam_fee_Reg :Number,
     Exam_fee_Rem :Number,
     semTotBklog  :Number,
+    spi          :Number,
+    cpi          :Number,
+    Tsubject     :Number,
+    status       :String,
     result:{
       sub1:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
@@ -124,6 +132,10 @@ var studentSchema = new mongoose.Schema({
     Exam_fee_Reg :Number,
     Exam_fee_Rem :Number,
     semTotBklog  :Number,
+    spi          :Number,
+    cpi          :Number,
+    Tsubject     :Number,
+    status       :String,
     result:{
       sub1:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
@@ -175,6 +187,10 @@ var studentSchema = new mongoose.Schema({
     Exam_fee_Reg :Number,
     Exam_fee_Rem :Number,
     semTotBklog  :Number,
+    spi          :Number,
+    cpi          :Number,
+    Tsubject     :Number,
+    status       :String,
     result:{
       sub1:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
@@ -226,6 +242,10 @@ var studentSchema = new mongoose.Schema({
     Exam_fee_Reg :Number,
     Exam_fee_Rem :Number,
     semTotBklog  :Number,
+    spi          :Number,
+    cpi          :Number,
+    Tsubject     :Number,
+    status       :String,
     result:{
       sub1:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
@@ -277,6 +297,10 @@ var studentSchema = new mongoose.Schema({
     Exam_fee_Reg :Number,
     Exam_fee_Rem :Number,
     semTotBklog  :Number,
+    spi          :Number,
+    cpi          :Number,
+    Tsubject     :Number,
+    status       :String,
     result:{
       sub1:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
@@ -328,6 +352,10 @@ var studentSchema = new mongoose.Schema({
     Exam_fee_Reg :Number,
     Exam_fee_Rem :Number,
     semTotBklog  :Number,
+    spi          :Number,
+    cpi          :Number,
+    Tsubject     :Number,
+    status       :String,
     result:{
       sub1:{
         code   :Number, name   :String,    these  :String,  thpa   : String,
@@ -379,6 +407,10 @@ var studentSchema = new mongoose.Schema({
     Exam_fee_Reg :Number,
     Exam_fee_Rem :Number,
     semTotBklog  :Number,
+    spi          :Number,
+    cpi          :Number,
+    Tsubject     :Number,
+    status       :String,
     result:{
       sub1:{
         code   :Number, name   :String,    these  :String,  thpa   : String,

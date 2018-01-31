@@ -27,10 +27,161 @@
         </ul>
       </div>
     </nav>
+
+
     <div class="container">
 
-      <p>Working!!!!!!!!</p>
-    </div>
+<!--======================================================================  -->
+<!--====================== Basic Layout===================================  -->
+<!--======================================================================  -->
+  <div class="">
+    <table border=1>
+      <thead>
 
+      </thead>
+      <tbody>
+        <tr>
+          <td> course  </td>
+          <td></td>
+          <td> name    </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>  age    </td>
+          <td></td>
+          <td>  gender </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td> category</td>
+          <td></td>
+          <td> mode_of_adm</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td> mob_no  </td>
+          <td></td>
+          <td> email   </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td> add_t   </td>
+          <td></td>
+          <td> add_p   </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td> twf     </td>
+          <td></td>
+          <td> branch  </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td> dob     </td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+  </div>
+
+<!-- ====================================================================== -->
+<!-- ===================== Exam fee Layout ================================ -->
+<!-- ====================================================================== -->
+<div style="float:left">
+        <table border=1>
+          <thead>
+            <td>Semester</td>
+            <td>Exam Fee</td>
+          </thead>
+          <%
+          for( i=1;i<=data.cur_sem;i++){
+            var s;
+            s = 's_'+i;
+            %>
+                <tr>
+                  <td><%= i %></td>
+                  <td><%= data[s].Exam_fee_Reg %> </td>
+               </tr>
+          <% } %>
+      </table>
+</div>
+<!--====================================================================  -->
+<!--==================== Term fee Layout ===============================  -->
+<!--=====================================================================  -->
+<div style="">
+       <table border=1>
+         <thead>
+           <td>Semester</td>
+           <td>Term Fee</td>
+         </thead>
+         <%
+         for( i=1;i<=data.cur_sem;i++){
+           var s;
+           s = 's_'+i;
+           %>
+               <tr>
+                 <td><%= i %></td>
+                 <td><%= data[s].Term_fee %> </td>
+              </tr>
+         <% } %>
+       </table>
+</div>
+<!--==================== Marksheet Layout ===============================  -->
+<!--=====================================================================  -->
+       <div class="">
+         <% for( i=1; i<data.cur_sem;i++){%>
+           <table border="1">
+             <thead>
+               <tr>
+                 <td rowspan="2" > Subject code</td>
+                 <td rowspan="2">Subject Name</td>
+                 <td colspan="3">Theory</td>
+                 <td colspan="3">Practical</td>
+                 <td rowspan="2">Total Grade</td>
+               </tr>
+               <tr>
+                 <td>Gtu</td>
+                 <td>Mid</td>
+                 <td>Total</td>
+                 <td>Gtu</td>
+                 <td>Mid</td>
+                 <td>Total</td>
+               </tr>
+             </thead>
+             <tbody>
+               <% for(j=1;j<=data.Tsubject;j++){
+                   var sem,sub;
+                   sem = "s_"+i;
+                   sub = "sub"+j;
+               %>
+                 <tr>
+                   <td>data[s].result[sub].code</td>
+                   <td>data[s].result[sub].name</td>
+                   <td>data[s].result[sub].these</td>
+                   <td>data[s].result[sub].thpa</td>
+                   <td>data[s].result[sub].thtot</td>
+                   <td>data[s].result[sub].prese</td>
+                   <td>data[s].result[sub].prpa</td>
+                   <td>data[s].result[sub].prtot</td>
+                   <td>data[s].result[sub].grade</td>
+                 </tr>
+               <% } %>
+                 <tr>
+                   <td></td>
+                   <td colspan="3">cpi :<%= data['s_'+i].cpi %></td>
+                   <td colspan="3">spi : <%= data['s_'+i].spi %></td>
+                   <td colspan="2">Status : <%= data['s_'+i].status %> </td>
+                 </tr>
+             </tbody>
+           </table>
+         <%}%>
+       </div>
+<!-- ====================================================================== -->
+<!--  ================    Term fees  ====================================== -->
+<!--======================================================================  -->
+
+    </div>
   </body>
 </html>
